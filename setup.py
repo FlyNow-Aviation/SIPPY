@@ -11,8 +11,8 @@ setuptools.setup(
 	long_description=readme,
 	long_description_content_type='text/markdown',
 	url="https://github.com/CPCLAB-UNIPI/sippy",
-	packages=setuptools.find_packages(),
-	python_requires="==2.7,>=3.5.*,<=3.8.5",
+	packages=setuptools.find_packages(),	
+	python_requires="==3.8.5,==2.7,>=3.5,<=3.7",
 	install_requires=(
 		"numpy",
 		"scipy",
@@ -28,7 +28,7 @@ setuptools.setup(
 		"Programming Language :: Python :: 3.5",
 		"Programming Language :: Python :: 3.6",
         	"Programming Language :: Python :: 3.7",
-        	"Programming Language :: Python :: 3.8",
+        	"Programming Language :: Python :: 3.8.5",
 		"Operating System :: OS Independent",
 	),
 )
